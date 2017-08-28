@@ -34,7 +34,7 @@ $(".imgClick").on("click", function() {
 function displayMovieInfo() {
 
 	var animal = $(this).attr("data-name");
-	var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=158a4ce93de14f9c96c7a820b2392bb2&limit=10";
+	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animal + "&api_key=158a4ce93de14f9c96c7a820b2392bb2&limit=10";
 
 	$.ajax({
 	  url: queryURL,
